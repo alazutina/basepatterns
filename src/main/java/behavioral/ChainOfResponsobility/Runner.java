@@ -12,7 +12,9 @@ firstNotifier.setNextNotifier(secondNotifier);
 secondNotifier.setNextNotifier(thirdNotifier);
 
 firstNotifier.notifyManager("very good ", Priority.FIVE);
+System.out.println("===========================================");
 firstNotifier.notifyManager("good", Priority.FOUR);
+        System.out.println("===========================================");
 firstNotifier.notifyManager("not good", Priority.THREE);
 
 

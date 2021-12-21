@@ -7,6 +7,6 @@ public class ThirdNotifier extends  GradesNotifier{
 
     @Override
     public void write(String message) {
-System.out.println("Письмо маме "+message);
+System.out.println("Сообщение маме "+message);
     }
 }

@@ -7,6 +7,6 @@ public class SecondNotifier extends  GradesNotifier {
     }
     @Override
     public void write(String message) {
-System.out.println("письмо классному руководителю  "+message);
+System.out.println("Сообщение классному руководителю  "+message);
     }
 }
