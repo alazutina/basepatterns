@@ -1,4 +1,4 @@
-package structural.proxy;
+package structural.Proxy;
 
 class RealFile implements File {
     private String file;
