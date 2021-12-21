@@ -1,4 +1,4 @@
-package behavioral.mediator;
+package behavioral.Mediator;
 
 public class Runner {
         public static void main(String[] args) {
