@@ -1,4 +1,4 @@
-package behavioral.command;
+package behavioral.Command;
 
 public class Dish {
 
