@@ -1,4 +1,4 @@
-package structural.proxy;
+package structural.Proxy;
 
 
 interface File {
