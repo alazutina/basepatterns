@@ -1,6 +1,18 @@
-package behavioral.Mediator;
+package behavioral.mediator;
 
-public interface User {
-    public void sendMessage(String message);
-    public void  getMessage(String message);
+class User {
+    private String name;
+
+    public User(String name){
+        this.name  = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void sendMessage(String msg){
+        Mediator.sendMessage(this, msg);
+    }
 }
+
