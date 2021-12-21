@@ -1,4 +1,4 @@
-package structural.proxy;
+package structural.Proxy;
 
 class ProxyFile implements File {
     private String file;
